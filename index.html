@@ -1,0 +1,56 @@
+
+ <!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--Styles-->
+    <style type="text/css">
+      body {
+        padding: 20px;
+        margin: 0;
+      }
+      .step {
+        display: none;
+      }
+      #step1 {
+        display: block;
+      }
+      body {
+        background-image: url('images/hero.jpg');
+      }
+    </style>
+  
+  
+  </head>
+  
+  <body>
+    
+    <div id="step1" class="step">
+      Please select which social media you want to Use:
+      <select class="slds-select" id="select1">
+        <option value="">Please select Option</option>
+        <option value="Watsapp">Watsapp</option>
+        <option value="Facebook Messenger">Facebook Messenger</option>
+        <option value="We Chat">We Chat</option>
+        <option value="SMS">SMS</option>
+      </select>
+      <br>
+      <br>
+      <!-- <button id="toggleLastStep">Toggle Last Step</button> -->
+      <button id="toggleLastStep" class="slds-button slds-button_neutral">Create Dynamic Step 4</button>
+    </div>
+    <div id="step2" class="step">
+      Here's a second page with some info on it.
+    </div>
+    <div id="step3" class="step">
+      You chose the message: 
+      <div id="message">
+      </div>
+    </div>
+    <div id="step4" class="step">
+      Hey, here's a dynamic fourth step, just for you. Turn this on or off from step 1.
+    </div>
+    
+    </body>
+    </html>
